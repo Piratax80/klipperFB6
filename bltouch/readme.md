@@ -89,12 +89,12 @@ Procedura tramite klippersreen:
 
 ![](Klipperscreen.jpg)
 
-калибровка стола:
+Calibrazione del piatto:
 
 ![](table.jpg)
 
-**Настройка винтов по датчику:**
-01:20 означает 1 полный оборот и 20 минут по часовой стрелке СW= по часовой стрелке. CCW = против часовой стрелки. 
+**Regolare le viti del piatto tramite Bltouch:**
+01:20 significa 1 giro completo e 20 minuti in senso orario CW = senso orario. CCW = antiorario. 
 
 Очень удобная штука, винты настроить стало гораздо проще.
 ![](screw.jpg)

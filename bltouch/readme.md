@@ -22,7 +22,7 @@ endstop_pin: probe:z_virtual_endstop
 ```
 (Attenzione: è possibile che nella configurazione sia già presente una sezione bed_mesh; cercarla e cancellarla, quindi inserire questa).
 
-Create una nuova sezione e scriveteci dentro:
+Crea una nuova sezione e scrivici dentro:
 
 ```
 [bltouch]
@@ -87,7 +87,7 @@ e seguire le istruzioni a monitor
 
 Procedura tramite klippersreen:
 
-![](screen.jpg)
+![](Klippescreen.jpg)
 
 калибровка стола:
 

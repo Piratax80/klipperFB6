@@ -87,7 +87,7 @@ e seguire le istruzioni a monitor
 
 Procedura tramite klippersreen:
 
-![](Klippescreen.jpg)
+![](Klipperscreen.jpg)
 
 калибровка стола:
 

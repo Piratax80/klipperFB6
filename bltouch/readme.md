@@ -91,7 +91,7 @@ Procedura tramite klippersreen:
 
 Calibrazione del piatto:
 
-![](table.jpg)
+![](Piatto.jpg)
 
 **Regolare le viti del piatto tramite Bltouch:**
 01:20 significa 1 giro completo e 20 minuti in senso orario CW = senso orario. CCW = antiorario. 

@@ -18,7 +18,7 @@ Aggiungi queste righe al tuo ```printer.cfg```
 
 cs_pin: PC15
 
-axes_map: -x,y,z  # тут возможно придется править под ваше расположение осей
+axes_map: -x,y,z  # potrebbe essere necessario adattarsi alla disposizione degli assi
 
 spi_software_sclk_pin: PB13
 
@@ -47,7 +47,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 
 Verificare la connessione dell'accelerometro 
 con il seguente comando da console `ACCELEROMETER_QUERY`
-Вы должны увидеть текущие измерения акселерометра, включая ускорение свободного падения, например
+Dovrebbero essere visualizzate le misure correnti dell'accelerometro, compresa l'accelerazione di gravità, ad esempio
 ```
 Recv: // adxl345 values (x, y, z): 470.719200, 941.438400, 9728.196800
 ```

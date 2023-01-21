@@ -79,6 +79,7 @@ screw_thread: CW-M4
 ```
 
 **Come controllare la distanza del sensore dall'ugello:** (PUNTO OBBLIGATORIO)
+
 posizionare un foglio di carta sul piatto, fissarlo in modo stabile, allineando il bordo. spostare la testa sul foglio e segnare con una matita il punto in cui si trova l'ugello e la punta del sensore. Quindi rimuovere il foglio, misurare la distanza dall'ugello.
 
 Calibrazione del piatto:

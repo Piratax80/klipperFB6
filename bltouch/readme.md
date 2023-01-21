@@ -81,14 +81,6 @@ screw_thread: CW-M4
 **Come controllare la distanza del sensore dall'ugello:** (PUNTO OBBLIGATORIO)
 posizionare un foglio di carta sul piatto, fissarlo in modo stabile, allineando il bordo. spostare la testa sul foglio e segnare con una matita il punto in cui si trova l'ugello e la punta del sensore. Quindi rimuovere il foglio, misurare la distanza dall'ugello.
 
-**Impostare Z-offset:**
-Lanciare da console il comando [PROBE_CALIBRATE]
-e seguire le istruzioni a monitor
-
-Procedura tramite klippersreen:
-
-![](Klipperscreen.jpg)
-
 Calibrazione del piatto:
 
 ![](Piatto.jpg)
@@ -96,5 +88,13 @@ Calibrazione del piatto:
 **Regolare le viti del piatto tramite Bltouch:**
 01:20 significa 1 giro completo e 20 minuti in senso orario CW = senso orario. CCW = antiorario. 
 
-Очень удобная штука, винты настроить стало гораздо проще.
+Molto pratico, le viti sono molto più facili da regolare.
 ![](screw.jpg)
+
+**Impostare Z-offset:**
+Lanciare da console il comando [PROBE_CALIBRATE]
+e seguire le istruzioni a monitor
+
+Procedura tramite klippersreen:
+
+![](Klipperscreen.jpg)

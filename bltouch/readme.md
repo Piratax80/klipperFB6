@@ -1,27 +1,28 @@
-[**Вариант монтажа на стоковую голову**](https://www.thingiverse.com/thing:5660302)
+[**Opzione di installazione sulla testa di serie**](https://www.thingiverse.com/thing:5660302)
 
-[**Вариант монтажа на стоковую голову продвинутый**](https://www.thingiverse.com/thing:5744744)
+[**Possibilità di installazione sulla testa di serie avanzata**](https://www.thingiverse.com/thing:5744744)
 
-Конфиг необходимо править с учетом отступов от сопла до точки замера блтач.!
-
-
-**Данный конфиг верен для версии головы KARAS_4010 c экструдером BIQU H2 V2**
-
-**Монтаж:**
-Подключается в самый нижний левый на плате на нем написано bl-touch, (верхний-сигнал, средний-"+", нижний-земля) который не видно и в концевик "H"(это датчик огня не нужный). контакты концевика (средний-земля, верхний-сигнал).  
+La configurazione deve essere corretta per tenere conto della rientranza dall'ugello al punto di misurazione del bltouch!
 
 
-**Настройка:**
-в секцию `[stepper_z]` необходимо найти исправить!(например видим `endstop_pin: !PC8` исправляем на `#endstop_pin: !PC8`) следующие строки чтобы они выглядели так:
+**Questa configurazione è corretta per la versione della testa KARAS_4010 con estrusore BIQU H2 V2**
+
+**Montaggio:**
+si collega alla parte più bassa a sinistra della scheda, con la dicitura bl-touch, (segnale superiore, medio "+", terra inferiore) e al finecorsa "H" (è un sensore antincendio non necessario). I contatti del finecorsa (terra centrale, segnale superiore). 
+
+
+**Impostazione:**
+nella sezione [stepper_z] è necessario applicare delle correzioni! (per esempio endstop_pin: !PC8 cambiare in #endstop_pin: !PC8) 
+Modificare le seguenti linee nel [printer.cfg]
 
 ```
 #endstop_pin: !PC8 
 endstop_pin: probe:z_virtual_endstop
 #position_endstop: 0.5
 ```
-(*Внимание! у вас в конфиге уже может быть раздел bed_mesh - его ищем\удаляем и потом вписываем этот*)
+(Attenzione: è possibile che nella configurazione sia già presente una sezione bed_mesh; cercarla e cancellarla, quindi inserire questa).
 
-Создаем новый раздел и вписываем это:
+Create una nuova sezione e scriveteci dentro:
 
 ```
 [bltouch]
@@ -56,13 +57,13 @@ gcode:
 
 [bed_mesh]
 speed: 40
-horizontal_move_z: 5 # отступ во время проб по оси Z
+horizontal_move_z: 5 
 mesh_min: 30,10 # CAUTION! = probe_xy = nozzle_xy + offset_xy
-mesh_max: 245,185 # стол с учетом сдвига на bltouch
-probe_count: 6,4 # здесь мы ставим количество точек проб по икс и по игрек
+mesh_max: 245,185 # posizione tenendo conto dello spostamento sul bltouch
+probe_count: 6,4 # qui mettiamo il numero di punti campione per X e per Y
 algorithm: bicubic
-fade_start: 1 #на какой высоте начнем выравнивать модель
-fade_end: 10 #на этой высоте в мм закончим выравнивать.
+fade_start: 1 #a quale altezza si inizia a livellare il modello
+fade_end: 10 #a questa altezza in mm termineremo l'allineamento.
 
 [screws_tilt_adjust] # = nozzle_xy = probe_xy - offset_xy
 screw4: 5,30 
@@ -76,14 +77,15 @@ screw3_name: back left screw
 speed: 100
 screw_thread: CW-M4
 ```
-**Как настроить:**
 
-Хоуминг в центре стола, потом двигаете туда сопло, в центр и добиваетесь зазора с которым обычно печатаете. Полученную разницу с нулём по Z вычитаете из того Z-офсет который стоял) по умолчанию ставил 2мм - норм.  И точная калибровка зазора делается при печати, просто ручками подбираее Z-офсет в клиппере и потом опять таки вычитаете из Z-офсета конфига.
+**Come controllare la distanza del sensore dall'ugello:** (PUNTO OBBLIGATORIO)
+posizionare un foglio di carta sul piatto, fissarlo in modo stabile, allineando il bordo. spostare la testa sul foglio e segnare con una matita il punto in cui si trova l'ugello e la punta del sensore. Quindi rimuovere il foglio, misurare la distanza dall'ugello.
 
-**Как проверить отступ датчика от сопла:**(НЕОБЯЗАТЕЛЬНЫЙ ПУНКТ)
-положите лист бумаги на стол, прижать прищепками, выровняв по краю. переместить голову над листом и карандашиком отметить где сопло, где кончик датчика. Потом снять лист, померять отступы от сопла.
+**Impostare Z-offset:**
+Lanciare da console il comando [PROBE_CALIBRATE]
+e seguire le istruzioni a monitor
 
-Юстировка через klippersreen:
+Procedura tramite klippersreen:
 
 ![](screen.jpg)
 

@@ -12,27 +12,27 @@
     nella cartella drivers_uart c'è un breve manuale su come scollegare i driver uart per la scheda MKS Robin Nano v4 3.1
   
 2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   un grafico sul collegamento del Orange pi 3 lts alla scheda della stampante via uart (senza fili che fuoriescono)
-3.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
+3.  [**alimentatore Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
  
 4.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)
-     Подключение датчика температуры BME280
+     Collegamento di un sensore di temperatura BME280
   
-5.   [**clean_nozle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
-     монтаж щетки очистки сопла, модель, макрос.
+5.   [**Pulizia Nozzle**](https://github.com/Tombraider2006/klipperFB6/tree/main/clean_nozle)
+     installazione della spazzola per la pulizia degli ugelli, file da stampare e macro.
   
-6. [**placement**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
-   Вариант размещения оборудования внутри принтера. там же необходимые модели для этого.
+6. [**Posizionamento**](https://github.com/Tombraider2006/klipperFB6/tree/main/placement)
+   Possibilità di collocare l'apparecchiatura all'interno della stampante.
  
-7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Подключение адресной светодиодной ленты к плате принтера
+7. [**led_rgb**](https://github.com/Tombraider2006/klipperFB6/tree/main/led_rgb)   Collegamento della striscia LED alla scheda della stampante
 
- 2. [**распиновка платы**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - да она под сьемные драйвера в остальном сопадает с мишко6. использовать когда надо узнать какой пин в клиппере написать.
+ 2. [**piedinatura della scheda**](https://github.com/makerbase-mks/MKS-Robin-Nano-V3.X/tree/main/hardware/MKS%20Robin%20Nano%20V3.1_001) - con driver rimovibili ma identica a quella della ghost6. Usare se è necessario scrivere i pin nel Printer.cfg in Klipper
 2.  [**timelapse matrix stail**](matrix_timelapse/readme.md)
-Новейший проект от меня, только тут и нигде больше)
+Il mio ultimo progetto
 
-*<h3>**Модификации Экструдера**</h3>*
+*<h3>**Estrusore modificato**</h3>*
 
 1.  [**biqu_h2**](karas/readme.md)
-Модель каретки под экструдер biqu_h2 для FlyingBear Ghost 6.
+Modello biqu_h2 carrello estrusore per FlyingBear Ghost 6.
  Уже 3 версии: под 4010 и 5015 кулеры и Deep версия 
 1. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
 2. [**Замена каретки и установка Sailfin Экструдера**](https://youtu.be/aw4aZP5nTXc)

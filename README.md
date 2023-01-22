@@ -1,10 +1,10 @@
 
 
-[**Что Купить**](what_2_buy/readme.md) всё что надо для того, чтобы принтер  вас любил.
+[**Cosa Comprare**](what_2_buy/readme.md) Tutto cio che serve per le modifiche elencate di seguito.
 
- [**Мануалы по настройке**](tune-up/readme.md) если возник вопрос "как  настроить"  вам сюда. *(фаза активного наполнения.)*
+ [**Manuali di configurazione**](tune-up/readme.md) se avete una domanda su "come configurare", andate qui. *(фаза активного наполнения.)* (in Russo)
 
-*<h2>**Модификации**</h2>*
+*<h2>**Modifiche**</h2>*
 
 1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
 

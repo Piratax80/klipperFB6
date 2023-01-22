@@ -6,12 +6,12 @@
 
 *<h2>**Modifiche**</h2>*
 
-1. [**Marlin 2.1**](marlin/readme.md) модифицированные прошивки марлин, чтоб было на что откатиться, если не понравился klipper.
+1. [**Marlin 2.1**](marlin/readme.md) firmware Marlin modificato, in modo da avere qualcosa su cui fare affidamento nel caso in cui non sia di vostro gradimento klipper.
 
 1.  [**drivers_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/drivers_uart)
-    в папке drivers_uart краткий мануал по распайке драйверов по юарт для платы MKS Robin Nano v4 3.1
+    nella cartella drivers_uart c'è un breve manuale su come scollegare i driver uart per la scheda MKS Robin Nano v4 3.1
   
-2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   наглядно о подключении orange pi 3 lts к плате принтера по uart(чтоб провода наружу не торчали)
+2.  [**mcu_uart**](https://github.com/Tombraider2006/klipperFB6/tree/main/mcu_uart)   un grafico sul collegamento del Orange pi 3 lts alla scheda della stampante via uart (senza fili che fuoriescono)
 3.  [**Управление питанием системы, содержащей одноплатный компьютер Orange Pi3 LTS**](https://github.com/evgs/OrangePi3Lts/tree/main/power) 
  
 4.  [**bme280**](https://github.com/Tombraider2006/klipperFB6/tree/main/bme280)

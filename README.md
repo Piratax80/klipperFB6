@@ -33,14 +33,14 @@ Il mio ultimo progetto
 
 1.  [**biqu_h2**](karas/readme.md)
 Modello biqu_h2 carrello estrusore per FlyingBear Ghost 6.
- Уже 3 версии: под 4010 и 5015 кулеры и Deep версия 
-1. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Экструдер разработанный для замены стандартного на принтере FBG6. Используется родной мотор и распространенные запчасти от BMG, встает на родную голову без ее переделок.
-2. [**Замена каретки и установка Sailfin Экструдера**](https://youtu.be/aw4aZP5nTXc)
-    Под видео есть ссылки на все необходимые файлы и запчасти.
+ 3 versioni: per ventole 4010, 5010 e Deep
+1. [**Shark Extruder**](https://github.com/Chiffa-C3/Shark-Extruder) Estrusore progettato per sostituire quello standard della stampante FBG6. Utilizza il motore originale e le parti di ricambio comuni di BMG, si adatta alla testa originale senza alcuna modifica.
+2. [**Sostituzione del carrello e installazione dell'estrusore Sailfinа**](https://youtu.be/aw4aZP5nTXc)
+    Sotto il video sono presenti i link a tutti i file e ai pezzi di ricambio necessari.
 
-3. [**Голова v2 от RuLED74 на FBG6.**](RuLED74_head_FBG6.rar) E3D V6 хотенд радиатор с гайкой, mrf экструдер(он же sailfin) под круглый мотор, предусмотрен монтаж 3d touch
+3. [**Testa v2 di RuLED74 su FBG6.**](RuLED74_head_FBG6.rar) E3D V6 estrusore mrf (alias Sailfin) motore tipo Sherpa/orbiter e 3d touch
 
-4. [**Установка E3D V6 хотенда**](https://youtu.be/zrmbZkC-GsI) 
+4. [**Impostazione di un hotend E3D V6**](https://youtu.be/zrmbZkC-GsI) 
    Новая голова для 6ого призрака от летающих медведей для установки  радиатора e3d с креплением гайкой. Позволяет использовать в дальнейшем распространенные резьбовые термобарьеры. Так же немного переделаны сопла обдува модели, теперь они съемные и не будут мешать, при обслуживании хотенда.
 5. [**Проект "Оливье"**](https://telegra.ph/Pechatayushchaya-golova-Olive-12-22) 
 

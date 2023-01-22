@@ -2,7 +2,7 @@
 
 [**Cosa Comprare**](what_2_buy/readme.md) Tutto cio che serve per le modifiche elencate di seguito.
 
- [**Manuali di configurazione**](tune-up/readme.md) se avete una domanda su "come configurare", andate qui. *(фаза активного наполнения.)* (in Russo)
+ [**Manuali di configurazione**](tune-up/readme.md) se avete una domanda su "come configurare", andate qui. (in Russo)
 
 *<h2>**Modifiche**</h2>*
 
